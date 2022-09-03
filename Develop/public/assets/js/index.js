@@ -83,7 +83,7 @@ const handleNoteDelete = (e) => {
   e.stopPropagation();
 
   const note = e.target;
-  const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).note_id;
+  const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
 
   if (activeNote.id === noteId) {
     activeNote = {};
@@ -178,7 +178,7 @@ displayNotes.addEventListener('click', (e) => {
   e.preventDefault();
   const previousList = e.target;
   const previousNote = JSON.parse(e.target.getAttribute('data-note'));
-  if(previousList && previousList.matches('.list-group-item')){ //Source: https://stackoverflow.com/a/42111989/19006972
+  if (previousList && previousList.matches('.list-group-item')) { //Source: https://stackoverflow.com/a/42111989/19006972
     noteTitle.value = previousNote.title;
     noteText.value = previousNote.text;
   }

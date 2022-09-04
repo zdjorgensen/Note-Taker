@@ -16,15 +16,15 @@
 
   <hr>
 
-  <img src='Develop\public\assets\img\NoteTakerHome.png' alt="Note Taker Homepage">
+  <img src='public\assets\img\NoteTakerHome.png' alt="Note Taker Homepage">
 
   <hr>
 
-  <img src='Develop\public\assets\img\BlankNote.png' alt="Blank Note Page">
+  <img src='public\assets\img\BlankNote.png' alt="Blank Note Page">
 
   <hr>
 
-  <img src='Develop\public\assets\img\Note.png' alt="Creating Note">
+  <img src='public\assets\img\Note.png' alt="Creating Note">
 
   <p align="right">(<a href="#top">Back to Top</a>)</p>
 

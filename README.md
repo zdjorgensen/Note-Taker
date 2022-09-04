@@ -43,11 +43,11 @@
   <div id="contact"></div>
 
   ## Contact
-  GitHub: [zdjorgensen](https://github.com/zdjorgensen)
+  [GitHub: zdjorgensen](https://github.com/zdjorgensen)
   
   Email: z.d.jorgensen@gmail.com
 
-  Heroku Link: 
+  [Heroku Link](https://notetakerbootcampapplication.herokuapp.com/)
 
   <p align="right">(<a href="#top">Back to Top</a>)</p>
 
